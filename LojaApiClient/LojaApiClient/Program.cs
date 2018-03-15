@@ -14,7 +14,7 @@ namespace LojaApiClient
         static void Main(string[] args)
         {
             string conteudo;
-            string url = "http://www.mocky.io/v2/52aaf5deee7ba8c70329fb7d";
+            string url = "http://localhost:54605/api/carrinho/1";
 
             HttpWebRequest request = (HttpWebRequest)WebRequest.Create(url);
 
